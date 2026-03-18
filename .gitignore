@@ -57,6 +57,9 @@ Build/*
 Build/*/**
 !Build/*/PakBlacklist*.txt
 
+# 只屏蔽所有的 Paragon 资源包
+Content/Paragon*/
+
 # Don't ignore icon files in Build
 !Build/**/*.ico
 
